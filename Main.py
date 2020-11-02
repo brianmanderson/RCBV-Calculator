@@ -2,7 +2,7 @@ __author__ = 'Brian M Anderson'
 # Created on 10/28/2020
 
 from DicomRTTool import DicomReaderWriter, plot_scroll_Image, np, sitk, os
-from Resample_Class.Resample_Class import Resample_Class_Object
+from Resample_Class.src.NiftiResampler.ResampleTools import Resample_Class_Object, sitk
 
 '''
 Resampler class to make it into a 512x512xcorrect thickness
